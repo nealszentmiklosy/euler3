@@ -1,12 +1,12 @@
 // find largest prime divisor of a number
 // start with the number to be checked
-let x = 10;
-// have to start the second loop here, want to reset incrementer
-for (){
-  let i = 2
-
+let x = 8;
+//once x = i, thats the largest prime factor
+for (i=2; x!=i; i++){
 // check every number starting with 2 to see if it divides into it
-  for (; x%i != 0; i++){}
-  if x = i()
-  x = x/i
+	if(x % i === 0) {
+       x = x/i
+       i = i-1
+    }
 }
+console.log(x)
