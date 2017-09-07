@@ -1,4 +1,12 @@
 // find largest prime divisor of a number
 // start with the number to be checked
-let x = 314159
+let x = 10;
+// have to start the second loop here, want to reset incrementer
+for (){
+  let i = 2
+
 // check every number starting with 2 to see if it divides into it
+  for (; x%i != 0; i++){}
+  if x = i()
+  x = x/i
+}
