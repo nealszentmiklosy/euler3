@@ -3,9 +3,11 @@
 let x = 8;
 //once x = i, thats the largest prime factor
 for (i=2; x!=i; i++){
-// check every number starting with 2 to see if it divides into it
+// when x%i is 0, i is a prime factor of x, and the LPF of x/i is = to LPF of x so can
+// reduce it in this way
 	if(x % i === 0) {
        x = x/i
+// need to make sure it checks i again (8 is divisible by 2, but so is 4)
        i = i-1
     }
 }
